@@ -1,0 +1,12 @@
+CS 347M Operating Systems Assignment 1
+
+Srivatsan Sridhar	150070005
+Nihal Singh			150040015
+Arpan Bannerjee		150070011
+
+Instructions for compiling shell.c:
+
+Compile with flag -fno-stack-protector. Otherwise "*** stack smashing detected ***"  error occurs due to large size of argument string
+
+gcc -o shell -fno-stack-protector shell.c
+./shell
